@@ -16,9 +16,9 @@ import com.mongodb.client.gridfs.model.GridFSFile;
 
 @SpringBootApplication
 public class Application implements CommandLineRunner {
-
+ 
 	Logger logger = LoggerFactory.getLogger(Application.class);
-
+ 
     @Autowired
     GridFsTemplate gridFsTemplate;
 
